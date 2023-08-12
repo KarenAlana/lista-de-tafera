@@ -4,7 +4,7 @@
 # Sobre
 Uma lista de tarefas desenvolvida utilizando HTML, CSS e JavaScript, com funcionalidades completas de CRUD (Create, Read, Update e Delete), todas as operações são salvas no LocalStorage.
 
-Nessa lista, as tarefas podem ser facilmente criadas, lidas, atualizadas e removidas. Além disso, é possível marcar as tarefas como concluídas conforme necessário.
+Nessa lista, as tarefas podem ser facilmente criadas, lidas, atualizadas e removidas. Além disso, é possível marcar as tarefas como concluídas conforme necessário e realizar pesquisa.
 
 # 🗂️ Acesso ao projeto:
 
