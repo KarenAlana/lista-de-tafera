@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/e78c53c902.js" crossorigin="anonymous"></script>
+    <title>To do List</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>    
+     <div class="containerPrincipal">
+        <div class="btnAdd">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+            <div class="botaoPesquisar">
+                <input type="text" id="pesquisa" placeholder="Pesquisar Tarefa" name="pesquisa">                
+                <button class="btnpesquisa"><i class="fas fa-search"></i></button>
+            </div>
+        <div id="colunaTabela">
+            <div class="listaItens"></div>
+        </div>      
+        <div class="modalAdd">
+            <i class="fa-solid fa-close icoCloseModal"></i>
+            <h2>Adicionar Tarefa</h2>
+            <form id="cadastro">
+                <label for="tarefa">Tarefa:</label>
+                <input type="text" id="tarefa">
+                <label for="detalhes">Detalhes:</label>
+                <textarea id="detalhes"></textarea>
+                <br> <br> <br>
+                <button class="btnAddTarefa" type="submit">Adicionar Tarefa</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- Aqui temos uma  To-Do List (lista de tarefas) responsiva, com funcionalidades  CRUD, permitindo que o usuário salve tarefas e seus detalhes no localStorage. Além disso, o usuário pode editar, marcar como concluída e apagar tarefas. Essa aplicação foi desenvolvida com  HTML, CSS e JavaScript. -->

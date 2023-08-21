@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  i {
+    background-color: transparent;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    background: linear-gradient(95deg, #9a69fc 0%, #f44efa 50%);
+    padding: 30px;
+  }
+  
+  body {
+    background: linear-gradient(#2f2a43, #222031);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  }
+  button,
+  input,
+  textarea {
+    border: 0 none;
+    outline: 0;
+  }
+  
+  .containerPrincipal {
+    background: linear-gradient(#36314d, #3e3c50);
+    box-shadow: 0 8px 16px -12px (rgba#0f0e13, 0.5);
+    border-top: 1px solid rgba(#ffffff, 0.05);
+    width: 80%;
+    margin: -50px auto;
+    height: 90%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+  
+  .btnAdd {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    width: 50px;
+    height: 50px;
+    color: rgb(9, 16, 22);
+    border-radius: 50%;
+    background-color: #fdfdfd;
+  }
+  
+  .botaoPesquisar {
+    background-color: #fdfdfd;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+  }
+  
+  .botaoPesquisar button {
+    background-color: #552ca7;
+    color: #d6d6d6;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .botaoPesquisar input {
+    margin-left: 12px;
+  }
+  
+  #colunaTabela {
+    margin-top: 50px;
+    width: 95%;
+  }
+  
+  #colunaTabela button {
+    background-color: transparent;
+    color: #fdfdfd;
+  }
+  
+  .modalAdd {
+    display: none;
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    background-color: #0f0e13d7;
+    position: absolute;
+    width: 85%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .modalAdd h2 {
+    margin: 45px auto;
+  }
+  .icoCloseModal{
+    margin-top: 15px;
+  }
+  
+  #cadastro {
+    width: 100%;
+    margin: auto;
+    /* margin: 100px auto; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #cadastro input,
+  #cadastro label,
+  #cadastro textarea,
+  #cadastro select,
+  #cadastro button {
+    min-width: 280px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 5px auto;
+  }
+  #cadastro textarea {
+    height: 200px;
+  }
+  
+  @media (min-width: 700px) {
+    #cadastro input,
+    #cadastro label,
+    #cadastro textarea,
+    #cadastro select,
+    #cadastro button {
+      width: 500px;
+    }
+  }
+  
+  #cadastro button {
+    background: linear-gradient(94.14deg, #552ca7 0%, #741777 58.83%);
+    color: #d6d6d6;
+    border-radius: 5px;
+  }
+  
+  .itenLista {
+    border-radius: 5px;
+    background-color: #222031;
+    border-radius: 5px;
+    background-color: #222031;
+    margin-top: 5px;
+    min-height: 50px;
+  }
+  
+  ul,
+  .itenLista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .checkbox-ativo {
+    color: #d6d6d65d;
+    text-decoration: line-through;
+  }
+  
