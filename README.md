@@ -9,4 +9,4 @@ Nessa lista, as tarefas podem ser facilmente criadas, lidas, atualizadas e remov
 # 🗂️ Acesso ao projeto:
 
 Link do site disponibilizado:
-https://karenalana.github.io/lista-de-tafera/index.html
+https://karenalana.github.io/lista-de-tarefa/index.html
